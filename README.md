@@ -133,7 +133,7 @@ Example:
 },
 ```
 ## Users collection Indexes
-We provide the seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E) for the users collection. We give a description of each below:
+We provide seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E) for the users collection indexed using [Pyserini](https://github.com/castorini/pyserini). We give a description of each below:
 - **bio_index**: each user is represented by his translated Twitter profile name and description.
 - **lists_index**: each user is represented by concatenating his translated Twitter lists names and descriptions.
 - **timeline_index**: each user is represented by concatenating the collected Arabic tweets from his timeline.

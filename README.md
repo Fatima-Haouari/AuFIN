@@ -132,3 +132,7 @@ Example:
   "owner_name": "𝙷𝚊𝚒𝚍𝚊𝚛 𝚉𝚎𝚒𝚗𝚎𝚍𝚍𝚒𝚗𝚎"
 },
 ```
+# Authors
+- [Fatima Haouari](https://sites.google.com/view/bigir/members/fatima-haouari) (Qatar University)  
+- [Tamer Elsayed](http://qufaculty.qu.edu.qa/telsayed/) (Qatar University)
+- [Watheq Mansour](https://sites.google.com/view/bigir/members/watheq-mansour) (Qatar University)  

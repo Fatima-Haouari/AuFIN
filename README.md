@@ -35,7 +35,7 @@ Examples:
 
 ```
 ## Rumors folds
-We provide the rumors folds used in our experiments. Each fold file containing 30 rumors, i.e., 10 from each of the following categories: politics, sports, and health.
+We provide the rumors 5 folds used in our experiments. Each fold file containing 30 rumors, i.e., 10 from each of the following categories: politics, sports, and health.
 
 ## Relevance Judgments (Qrels)
 

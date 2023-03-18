@@ -132,6 +132,9 @@ Example:
   "owner_name": "𝙷𝚊𝚒𝚍𝚊𝚛 𝚉𝚎𝚒𝚗𝚎𝚍𝚍𝚒𝚗𝚎"
 },
 ```
+##Users collection Indexes
+We provide the [seven indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E) we used in our experiments
+
 # Authors
 - [Fatima Haouari](https://sites.google.com/view/bigir/members/fatima-haouari) (Qatar University)  
 - [Tamer Elsayed](http://qufaculty.qu.edu.qa/telsayed/) (Qatar University)

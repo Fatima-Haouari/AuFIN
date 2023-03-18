@@ -1,4 +1,4 @@
-# AuFIN
+# AuFIN: Authority FINding in Arabic Twitter
 # Content of this repository
 We provide the following:
 * Main folder: [data](./data)   

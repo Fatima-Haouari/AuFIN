@@ -138,8 +138,8 @@ We provide the seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc
 - **lists_index**: each user is represented by concatenating his translated Twitter lists names and descriptions.
 - **timeline_index**: each user is represented by concatenating the collected Arabic tweets from his timeline.
 - **bio_lists_index**: each user is represented by concatenating his translated Twitter lists and his translated Twitter profile name and description.
-- **lists_timeline_index**: 
-- **bio_lists_timeline_index**:
+- **lists_timeline_index**: each user is represented by concatenating his translated Twitter lists and the collected Arabic tweets from his timeline.
+- **bio_lists_timeline_index**: each user is represented by concatenating his translated Twitter profile name and description, his translated Twitter lists names and descriptions, and the collected Arabic tweets from his timeline
 # Authors
 - [Fatima Haouari](https://sites.google.com/view/bigir/members/fatima-haouari) (Qatar University)  
 - [Tamer Elsayed](http://qufaculty.qu.edu.qa/telsayed/) (Qatar University)

@@ -135,7 +135,11 @@ Example:
 ## Users collection Indexes
 We provide the seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E) for the users collection. We give a description of each below:
 - **bio_index**: each user is represented by his translated Twitter profile name and description.
-
+- **lists_index**: each user is represented by concatenating his translated Twitter lists names and descriptions.
+- **timeline_index**: each user is represented by concatenating the collected Arabic tweets from his timeline.
+- **bio_lists_index**: each user is represented by concatenating his translated Twitter lists and his translated Twitter profile name and description.
+- **lists_timeline_index**: 
+- **bio_lists_timeline_index**:
 # Authors
 - [Fatima Haouari](https://sites.google.com/view/bigir/members/fatima-haouari) (Qatar University)  
 - [Tamer Elsayed](http://qufaculty.qu.edu.qa/telsayed/) (Qatar University)

@@ -135,7 +135,7 @@ Example:
 ## Keywords used to collect our seed of users Twitter accounts
 We release both English and Arabic keywords we used to collect our seed of users Twitter account by either streaming or searching. The English and Arabic keywords are in two separated .txt files.
 
-## Users collection Indexes
+## Users collection indexes
 We provide seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E) for the users collection indexed using [Pyserini](https://github.com/castorini/pyserini). We give a description of each below:
 - **bio_index**: each user is represented by his translated Twitter profile name and description.
 - **lists_index**: each user is represented by concatenating his translated Twitter lists names and descriptions.

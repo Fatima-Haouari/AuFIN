@@ -132,7 +132,7 @@ Example:
   "owner_name": "𝙷𝚊𝚒𝚍𝚊𝚛 𝚉𝚎𝚒𝚗𝚎𝚍𝚍𝚒𝚗𝚎"
 },
 ```
-##Keywords used to collect our seed of users
+## Keywords used to collect our seed of users
 We release both English and Arabic keywords we used to collect our seed of users Twitter account by either streaming or searching. The English and Arabic keywords are in two separated .txt files.
 
 ## Users collection Indexes
@@ -143,6 +143,9 @@ We provide seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFN
 - **bio_lists_index**: each user is represented by concatenating his translated Twitter profile name and description and his translated Twitter lists.
 - **lists_timeline_index**: each user is represented by concatenating his translated Twitter lists and the collected Arabic tweets from his timeline.
 - **bio_lists_timeline_index**: each user is represented by concatenating his translated Twitter profile name and description, his translated Twitter lists names and descriptions, and the collected Arabic tweets from his timeline
+  
+## pre-trained models for rumor context expansion
+-**Arabic Wikipedia2vec**: a pre-trained [Wikipedia2vec](https://wikipedia2vec.github.io/wikipedia2vec/) model with Arabic Wikipedia 2022. Download from [here](https://drive.google.com/drive/u/0/folders/1phB6ocLtwbluK9WrUQ5S0BrMBMOVcN0P)
 
 # Authors
 - [Fatima Haouari](https://sites.google.com/view/bigir/members/fatima-haouari) (Qatar University)  

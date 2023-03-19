@@ -2,7 +2,7 @@
 # Content of this repository
 We provide the following:
 * Main folder: [data](./data)   
-  __Note__: Users metadata can be downloaded from [here]([https://drive.google.com/drive/folders/1AzCwNq1IukK1Sm9je_SupDTauL-STYk4?usp=sharing](https://drive.google.com/drive/u/0/folders/10GPy8rziZD1NRRWve6leWeeirUBwipsJ)), and the users collection indexes can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E). 	
+  __Note__: Users metadata can be downloaded from [here](https://drive.google.com/drive/u/0/folders/10GPy8rziZD1NRRWve6leWeeirUBwipsJ), and the users collection indexes can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E). 	
 
 ## Rumors
 

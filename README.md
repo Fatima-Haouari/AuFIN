@@ -132,6 +132,9 @@ Example:
   "owner_name": "𝙷𝚊𝚒𝚍𝚊𝚛 𝚉𝚎𝚒𝚗𝚎𝚍𝚍𝚒𝚗𝚎"
 },
 ```
+##Keywords used to collect our seed of users
+We release both English and Arabic keywords we used to collect our seed of users Twitter account by either streaming or searching. The English and Arabic keywords are in two separated .txt files.
+
 ## Users collection Indexes
 We provide seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E) for the users collection indexed using [Pyserini](https://github.com/castorini/pyserini). We give a description of each below:
 - **bio_index**: each user is represented by his translated Twitter profile name and description.
@@ -140,6 +143,7 @@ We provide seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFN
 - **bio_lists_index**: each user is represented by concatenating his translated Twitter profile name and description and his translated Twitter lists.
 - **lists_timeline_index**: each user is represented by concatenating his translated Twitter lists and the collected Arabic tweets from his timeline.
 - **bio_lists_timeline_index**: each user is represented by concatenating his translated Twitter profile name and description, his translated Twitter lists names and descriptions, and the collected Arabic tweets from his timeline
+
 # Authors
 - [Fatima Haouari](https://sites.google.com/view/bigir/members/fatima-haouari) (Qatar University)  
 - [Tamer Elsayed](http://qufaculty.qu.edu.qa/telsayed/) (Qatar University)

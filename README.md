@@ -66,7 +66,7 @@ Example:
 
 ## Users Metadata
 
-We provide [a collection of 1000 JSON files with users information](https://drive.google.com/drive/folders/1FQORc039HauQvlXORTr-MQI1EAlpDVAT?usp=sharing). Each file has a list of JSON objects representing users. For each user we provide the following entries: 
+We provide [a collection of 1000 JSON files with users information](https://drive.google.com/drive/folders/10GPy8rziZD1NRRWve6leWeeirUBwipsJ). Each file has a list of JSON objects representing users. For each user we provide the following entries: 
 ```
 {
   user_id [the unique user ID as provided by Twitter]

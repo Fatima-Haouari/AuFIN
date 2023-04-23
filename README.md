@@ -1,4 +1,4 @@
-# Authority FINding for rumor verification in Arabic Twitter
+# Who can verify this? Finding authorities for rumor verification in Twitter [paper](https://www.sciencedirect.com/science/article/pii/S0306457323001036)
 # Content of this repository
 We provide the following:
 * Main folder: [data](./data)   

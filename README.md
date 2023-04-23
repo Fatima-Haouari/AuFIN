@@ -151,3 +151,15 @@ We provide seven [indexes](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFN
 - [Fatima Haouari](https://sites.google.com/view/bigir/members/fatima-haouari) (Qatar University)  
 - [Tamer Elsayed](http://qufaculty.qu.edu.qa/telsayed/) (Qatar University)
 - [Watheq Mansour](https://sites.google.com/view/bigir/members/watheq-mansour) (Qatar University)  
+
+# Cite
+@article{AuFIN,
+title = {Who can verify this? Finding authorities for rumor verification in Twitter},
+journal = {Information Processing \& Management},
+volume = {60},
+number = {4},
+pages = {103366},
+year = {2023},
+issn = {0306-4573},
+author = {Fatima Haouari and Tamer Elsayed and Watheq Mansour},
+}

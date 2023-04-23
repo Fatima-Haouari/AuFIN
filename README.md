@@ -1,5 +1,5 @@
 # Who can verify this? Finding authorities for rumor verification in Twitter [paper](https://www.sciencedirect.com/science/article/pii/S0306457323001036)
-# Content of this repository
+## Content of this repository
 We provide the following:
 * Main folder: [data](./data)   
   __Note__: Users metadata can be downloaded from [here](https://drive.google.com/drive/u/0/folders/10GPy8rziZD1NRRWve6leWeeirUBwipsJ), and the users collection indexes can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E). 	

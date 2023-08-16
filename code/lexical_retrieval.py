@@ -42,6 +42,7 @@ def retrieve_lexical_authorities(queries_file,results_file,index,N):
     #pyserini BM25
     searcher=SimpleSearcher(index)
     searcher.set_language('ar')
+    #train=pd.read_csv(queries_file, sep='\t',encoding='utf8',dtype = str)
     train = pd.read_json(queries_file)
     print(train)
     clean_queries=train['tweet_text'].apply(lambda x: clean(x)).apply(lambda x: normalize(x))

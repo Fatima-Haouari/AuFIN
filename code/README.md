@@ -1,5 +1,5 @@
 # Lexical retrieval
-To replicate our results we provide our [lexical retrieval model](https://github.com/Fatima-Haouari/AuFIN/blob/main/code/lexical_retrieval.py). To run the code you need to install [Pyserini] as shown bellow:
+To replicate our results we provide our [lexical retrieval model](https://github.com/Fatima-Haouari/AuFIN/blob/main/code/lexical_retrieval.py). To run the code you need to install [Pyserini](https://github.com/castorini/pyserini) as shown bellow:
 > pip install pyserini==0.14.0 <br/>
 
 then run the code as follows:

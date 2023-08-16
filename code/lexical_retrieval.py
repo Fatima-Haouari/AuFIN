@@ -3,10 +3,9 @@ import pandas as pd
 import re
 import numpy as np
 import argparse
-
+import json
 ######################clean tweets######################################
 def clean(text):
-   print(text, type(text))
    if text is np.nan:
     return ""
    else:
@@ -43,10 +42,10 @@ def retrieve_lexical_authorities(queries_file,results_file,index,N):
     #pyserini BM25
     searcher=SimpleSearcher(index)
     searcher.set_language('ar')
-
-    train=pd.read_csv(queries_file, sep='\t',encoding='utf8',dtype = str)
+    train = pd.read_json(queries_file)
+    print(train)
     clean_queries=train['tweet_text'].apply(lambda x: clean(x)).apply(lambda x: normalize(x))
-    print(clean_queries)
+    #print(clean_queries)
     queries=clean_queries.tolist()
     queries_ids=train['rumor_id'].tolist()
     hits_number=N
@@ -67,7 +66,7 @@ def retrieve_lexical_authorities(queries_file,results_file,index,N):
         user_id.append(values[i].docid)
         score.append(values[i].score)
         rank.append(i+1)
-        print(f'{i+1:2} {values[i].docid:15} {values[i].score:.5f} {values[i].raw}')
+        #print(f'{i+1:2} {values[i].docid:15} {values[i].score:.5f} {values[i].raw}')
 
     finaldf['tweetID']=tweet_id_arr
     finaldf['Q0']=['Q0']*len(tweet_id_arr)

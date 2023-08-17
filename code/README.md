@@ -3,8 +3,15 @@ To replicate our results we provide our [lexical retrieval model](https://github
 > pip install pyserini==0.14.0 <br/>
 
 then run the code as follows:
-> python lexical_retrieval.py -q rumors.json -r lexical_authorities.txt -i bio_lists_index -n 1000
+> python lexical_retrieval.py -q rumors.json -r lexical_users.txt -i bio_lists_index -n 1000
  <br/>
+
+# Initial retrieval
+To get the initial users, run the [initial retrieval model](https://github.com/Fatima-Haouari/AuFIN/blob/main/code/initial_retrieval.py) as follows:
+> python initial_retrieval.py -i lists_count.pkl  -f followers_following_count.pkl -l lexical_users.txt -r initial_users.txt
+<br/>
+
+where [lists_count.pkl](https://github.com/Fatima-Haouari/AuFIN/blob/main/data/lists_count.pkl) is a dictionary with lists count of all users, [followers_following_count.pkl](https://github.com/Fatima-Haouari/AuFIN/blob/main/data/followers_following_count.pkl) is a dictionary with the ratio of followers to followees of all users, lexical_users.txt is the output of the lexical retrieval model, and initial_users.txt is the name of file to save the results.
 
 
 

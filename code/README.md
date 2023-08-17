@@ -6,6 +6,8 @@ then run the code as follows:
 > python lexical_retrieval.py -q rumors.json -r lexical_users.txt -i bio_lists_index -n 1000
  <br/>
 
+ where [rumors.json](https://github.com/Fatima-Haouari/AuFIN/blob/main/data/rumors.json) is the file containing all the 150 rumors, lexical_users.txt is the name of file to save the results, and [bio_lists_index](https://drive.google.com/drive/u/0/folders/1y0Fhc5IFNvdg0ZdUjS5lkBB9QZaEcQ7E)  is the selected indexed collection.
+
 # Initial retrieval
 To get the initial users, run the [initial retrieval model](https://github.com/Fatima-Haouari/AuFIN/blob/main/code/initial_retrieval.py) as follows:
 > python initial_retrieval.py -i lists_count.pkl  -f followers_following_count.pkl -l lexical_users.txt -r initial_users.txt

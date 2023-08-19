@@ -1,3 +1,15 @@
+# Indexing users documents
+To index the users documents you need to install [Pyserini](https://github.com/castorini/pyserini) as shown bellow:
+> pip install pyserini==0.14.0 <br/>
+
+You need to process the users contents, e.g., Twitter lists by translating if needed, cleanining, normalizing and concatenate them into as a single document as a json file (please check the format [here](https://github.com/Fatima-Haouari/AuFIN/tree/main/code/users_documents_sample)).
+
+To index the users documents run the following command:
+
+> python -m pyserini.index -input users_documents_sample -collection JsonCollection -generator DefaultLuceneDocumentGenerator -index indexes/bio_lists_index -threads 5 -storePositions -storeDocvectors -storeRaw -language ar <br/>
+
+where [users_documents_sample](https://github.com/Fatima-Haouari/AuFIN/tree/main/code/users_documents_sample) is the sample of users documents provided by us, and indexes/bio_lists_index is the path to save the index.
+
 # Lexical retrieval
 To replicate our results we provide our [lexical retrieval model](https://github.com/Fatima-Haouari/AuFIN/blob/main/code/lexical_retrieval.py). To run the code you need to install [Pyserini](https://github.com/castorini/pyserini) as shown bellow:
 > pip install pyserini==0.14.0 <br/>

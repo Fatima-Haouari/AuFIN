@@ -2,7 +2,7 @@
 To index the users documents you need to install [Pyserini](https://github.com/castorini/pyserini) as shown bellow:
 > pip install pyserini==0.14.0 <br/>
 
-You need to process the users contents, e.g., Twitter lists by translating if needed, cleaning, normalizing and concatenate them into a single document as a json file. Please check the users documents format [here](https://github.com/Fatima-Haouari/AuFIN/tree/main/code/users_documents_sample)). The code to translate, clean, normalize the users content is [here](https://github.com/Fatima-Haouari/AuFIN/blob/main/code/utils.py).
+You need to process the users contents, e.g., Twitter lists by cleaning, normalizing and concatenating them into a single document as a json file. Please check the users documents format [here](https://github.com/Fatima-Haouari/AuFIN/tree/main/code/users_documents_sample)). The code to clean, normalize the users content is [here](https://github.com/Fatima-Haouari/AuFIN/blob/main/code/utils.py).
 
 To index the users documents run the following command:
 
